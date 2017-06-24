@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/colorBackground">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/title_mine_sweeper"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button_low_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="@string/button_low_level"/>
+
+    <Button
+        android:id="@+id/button_middle_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_low_level"
+        android:layout_alignStart="@+id/button_low_level"
+        android:layout_below="@+id/button_low_level"
+        android:layout_marginTop="23dp"
+        android:text="@string/button_middle_level"/>
+
+    <Button
+        android:id="@+id/button_high_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_middle_level"
+        android:layout_alignStart="@+id/button_middle_level"
+        android:layout_below="@+id/button_middle_level"
+        android:layout_marginTop="22dp"
+        android:text="@string/button_high_level"/>
+
+</RelativeLayout>
